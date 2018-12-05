@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/add_image"
+            android:id="@+id/order_img"/>
+
+        <EditText
+            android:id="@+id/order_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingTop="5dp"
+            android:textSize="8pt"
+            android:padding="8dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:hint="ادخل اسم المنتج"/>
+
+        <EditText
+            android:id="@+id/orderDescribtion"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:textSize="6pt"
+            android:gravity="top"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:background="@color/white"
+            android:hint="ادخل وصف المنتج"/>
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_margin="32dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="تحميل"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

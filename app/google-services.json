@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "189406902753",
+    "firebase_url": "https://cmarktask.firebaseio.com",
+    "project_id": "cmarktask",
+    "storage_bucket": "cmarktask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189406902753:android:8a5cd189f160d247",
+        "android_client_info": {
+          "package_name": "elgohary.r.sam.cmarktask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189406902753-946uq3s1mvdrq067q30q5feqdo3sra74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "elgohary.r.sam.cmarktask",
+            "certificate_hash": "630b9efd9e530bb60cab2bd6e78841b8abbdceed"
+          }
+        },
+        {
+          "client_id": "189406902753-gl0vot8kivsoq5ai65rp04i94hjjncje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNUzHJLsiSTumz6oS4UlkqXvhbqx0UTJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189406902753-gl0vot8kivsoq5ai65rp04i94hjjncje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
